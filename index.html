@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <h2>Sample Form</h2>
+
+        </header>
+
+        <div id="firstBox">
+
+            <div id="fbox1">
+                <label for="name">Partner Name</label>
+                <input type="text" id="finput1">
+
+            </div>
+            <span id="errorPartnerName" style="color: red; display: none; margin: 50px;"></span>
+
+            <div id="fbox2">
+
+                <label for="email">Partner Email ID</label>
+                <input type="text" id="finput2">
+
+            </div>
+            <span id="errorEmail" style="color: red; display: none; margin: 50px;"></span>
+
+        </div>
+
+        <div id="secondBox">
+
+            <div id="sbox1">
+
+                <div id="labelBox1">
+
+                    
+                    <label for="name">Partner Legal</label>
+                    <label for="name">Name</label>
+
+                </div>
+
+                <input type="text" id="sinput1">
+
+            </div>
+
+            <span id="errorLegalName" style="color: red; display: none; margin: 50px;"></span>
+
+            <div id="sbox2">
+
+                <label for="name">Partner Mobile</label>
+                <input type="text" id="sinput2">
+
+            </div>
+
+            <span id="errorMobile" style="color: red; display: none; margin: 50px;"></span>
+
+        </div>
+
+        <div id="thirdBox">
+
+            <label for="address">Partner Address</label>
+            <input type="text" id="tinput">
+
+        </div>
+
+        <span id="errorAddress" style="color: red; display: none; margin: 50px;"></span>
+
+        <div id="fourthBox">
+
+            <div id="fobox1">
+
+                <div id="labelBox2">
+
+                    
+                    <label for="date">Contract Start</label>
+                    <label for="date">Date</label>
+
+                </div>
+
+                <input type="text" id="foinput1" placeholder="Date Start">
+
+            </div>
+
+            <span id="errorStartDate" style="color: red; display: none; margin: 50px;"></span>
+
+            <div id="fobox2">
+
+                <div id="labelBox3">
+
+                    <label for="date">Contract Expiry</label>
+                    <label for="date">Date</label>
+                    
+                </div>
+
+                <input type="text" id="foinput2" placeholder="Date End">
+
+            </div>
+
+            <span id="errorEndDate" style="color: red; display: none; margin: 50px;"></span>
+
+        </div>
+
+        <div id="fivthBox">
+
+            <div id="fivbox1">
+
+                <div id="labelBox4">
+
+                    <label for="amount">Minimum Loan</label>
+                    <label for="amount">Amount</label>
+
+                </div>
+
+                <input type="text" id="minLoan">
+
+            </div>
+
+            <span id="errorMinAmmount" style="color: red; display: none; margin: 50px;"></span>
+
+            <div id="fivbox2">
+
+                <div id="labelBox5">
+                    <label for="amount">Maximum Loan</label>
+                    <label for="amount">Amount</label>
+                </div>
+
+                <input type="text" id="maxLoan">
+
+            </div>
+
+            <span id="errorMaxAmount" style="color: red; display: none; margin: 50px;"></span>
+
+        </div>
+
+        <div id="sixthBox">
+
+            <div id="sixbox1">
+
+                <label for="Rate">Intrest Rate</label>
+                <input type="text" id="instRate">
+
+            </div>
+
+            <span id="errorRate" style="color: red; display: none; margin: 50px;"></span>
+
+            <div id="sixbox2">
+
+                <label for="amount">Deposite Amount</label>
+                <input type="text" id="depoAmount">
+
+            </div>
+
+            <span id="errorDepositeAmount" style="color: red; display: none; margin: 50px;"></span>
+
+        </div>
+
+        
+        <button type="submit" id="submit">Submit</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
